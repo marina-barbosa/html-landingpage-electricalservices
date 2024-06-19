@@ -4,22 +4,22 @@ header {
   height: 80px;
 }
 
-.wrap div {
+header .wrap div {
   float: left;
 }
 
-.wrap img {
+header .wrap img {
   margin-top: -10px;
 }
 
-.wrap nav {
+header .wrap nav {
   float: right;
   font-family: "Lato", sans-serif;
   font-size: 16px;
   font-weight: bold;
 }
 
-nav ul {
+header nav ul {
   text-align: center;
 }
 
@@ -29,12 +29,12 @@ nav ul a:nth-child(3) {
   margin-right: 80px;
 }
 
-nav ul li {
+header nav ul li {
   display: inline;
   color: var(--branco);
   transition: 0.5s;
 }
 
-nav ul li:hover {
+header nav ul li:hover {
   color: var(--laranja);
 }

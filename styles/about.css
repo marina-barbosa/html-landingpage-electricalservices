@@ -1,0 +1,103 @@
+#about {
+  min-height: 90vh;
+}
+
+#about .wrap {
+  height: 100%;
+}
+
+#about .left,
+#about .right {
+  height: 100%;
+  width: 50%;
+  display: inline-block;
+}
+
+#about .left {
+  float: left;
+}
+
+#about .right {
+  float: right;
+}
+
+#about img {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin-top: 30%;
+  margin-left: 80px;
+}
+
+#about .text {
+  width: 545px;
+  margin: 0 auto;
+  margin-top: 16%;
+}
+
+#about h2,
+#about p,
+#about .list {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+#about h2 {
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 1.5px;
+  font-weight: normal;
+}
+
+#about h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+#about h1 span {
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+#about h1 span:nth-child(1) {
+  color: var(--laranja)
+}
+
+#about h1 span:nth-child(2) {
+  color: var(--verde)
+}
+
+#about p {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1.5px;
+  font-weight: normal;
+}
+
+#about .list {
+  margin-top: 30px;
+}
+
+#about .list div:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+#about .list div span:nth-child(1) {
+  margin-right: 60px;
+}
+
+#about .list i {
+  font-size: 22px;
+  color: var(--laranja);
+  margin-right: 15px;
+  vertical-align: 50%;
+}
+
+#about .list p {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 1.5px;
+  display: inline-block;
+  width: 200px;
+}

@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.bg-img {
+#home .bg-img {
   /* clip-path: polygon( 0px 0px, 1799px 0px, 1800px 879px, 0px 1024px); */
   clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
   background-color: var(--preto);
@@ -15,7 +15,7 @@
   position: absolute;
 }
 
-.bg-laranja {
+#home .bg-laranja {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 84%);
   background-color: var(--laranja);
   height: calc(1024px - 160px);
@@ -23,7 +23,7 @@
   position: absolute;
 }
 
-.bg-sombra {
+#home .bg-sombra {
   clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
   background: linear-gradient(to right, var(--preto) 50%, #22222220 100%);
   height: calc(1024px - 160px);
@@ -36,7 +36,7 @@
   width: 100%;
   z-index: 300;
   color: var(--branco);
-  position: absolute;
+  position: relative;
 }
 
 #home .text {
@@ -65,3 +65,4 @@
 #home .btn:nth-child(2) {
   background-color: var(--laranja);
 }
+
