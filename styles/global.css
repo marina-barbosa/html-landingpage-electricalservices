@@ -20,6 +20,31 @@
   /* font-family: "Merriweather Sans", sans-serif; */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: var(--preto);
+  background-color: var(--branco);
+}
+
+.wrap {
+  width: 1440px;
+  margin: auto auto;
+  padding: 25px 0;
+}
+
+.btn {
+  display: inline-block;
+  color: var(--branco);
+  padding: 0px 20px;
+  text-decoration: none;
+  transition: 0.5s;
+  height: 50px;
+  width: 195px;
+  border-radius: 8px;
+  text-align: center;
+  margin: auto 0;
+  font-weight: bold;
+  line-height: 50px;
 }
