@@ -4,10 +4,20 @@
 
 :root {
   --preto: #222;
+  --text: #222;
   --laranja: #FF5E41;
   --verde: #0BAD73;
   --cinza: #ddd;
   --branco: #fff;
+}
+
+[data-theme="dark"] {
+  --preto: #ddd;
+  --text: #eee;
+  --laranja: #FF8A65;
+  --verde: #66BB6A;
+  --cinza: #444;
+  --branco: #222;
 }
 
 * {
@@ -22,6 +32,7 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 
 body {
@@ -52,4 +63,3 @@ body {
 .btn:hover {
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
 }
-
