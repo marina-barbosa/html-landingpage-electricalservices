@@ -17,12 +17,13 @@
   border: 1px solid var(--cinza);
   border-radius: 8px;
   display: inline-block;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: 0.5s;
 }
 
 #services .card:hover {
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+  /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.8); */
+  border: 1px solid var(--laranja);
 }
 
 #services .row .card:nth-child(2) {
