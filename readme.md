@@ -4,13 +4,28 @@ Este projeto faz parte de uma atividade prática do curso Fullstack Jr da '+PraT
 
 Deploy ->  https://marina-barbosa.github.io/html-landingpage-electricalservices/
 
+
+## Índice
+
+- [Introdução](#introdução)
+- [Funcionalidades](#funcionalidades)
+- [Proximos Passos](#próximos-passos)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Execução](#execução)
+- [Contato](#contato)
+  
+
 ## Screenshots
 
 <img src="assets/screencapture-index-light.png" alt="Screenshot do Site">
 
-<!-- 
+<br>
+<br>
 
 <img src="assets/screencapture-contato-light.png" alt="Screenshot do Site">
+
+
+<!-- 
 
 <img src="assets/screencapture-index-dark.png" alt="Screenshot do Site">
 
@@ -18,14 +33,6 @@ Deploy ->  https://marina-barbosa.github.io/html-landingpage-electricalservices/
 
  -->
 
-## Índice
-
-- [Introdução](#introdução)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Contato](#contato)
 
 ## Introdução
 
@@ -39,6 +46,13 @@ Este projeto foi criado para oferecer um site completo para uma empresa de servi
 - **Depoimentos:** Feedbacks dos clientes.
 - **Por que Nos Escolher:**
 - **Contato:** Formulário para os clientes entrarem em contato.
+
+## Próximos Passos
+
+1. **Responsividade do Site**: 
+   - Usar media queries para ajustar o layout em diferentes tamanhos de tela.
+   - Testar o site em dispositivos móveis, tablets e desktops.
+   - Ajustar imagens e elementos interativos para serem responsivos.
 
 ## Tecnologias Utilizadas
 
