@@ -44,6 +44,8 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--laranja) var(--branco);
   /* scrollbar-width: none; */
 }
 
