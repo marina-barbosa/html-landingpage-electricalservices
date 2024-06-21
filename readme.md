@@ -2,6 +2,20 @@
 
 Este projeto faz parte de uma atividade prática do curso Fullstack Jr da '+PraTi' e é dedicado a fornecer uma interface amigável e profissional para uma empresa de serviços elétricos.
 
+## Screenshots
+
+<img src="assets/screencapture-index-light.png" alt="Screenshot do Site">
+
+<!-- 
+
+<img src="assets/screencapture-contato-light.png" alt="Screenshot do Site">
+
+<img src="assets/screencapture-index-dark.png" alt="Screenshot do Site">
+
+<img src="assets/screencapture-contato-dark.png" alt="Screenshot do Site">
+
+ -->
+
 ## Índice
 
 - [Introdução](#introdução)
