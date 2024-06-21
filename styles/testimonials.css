@@ -1,11 +1,21 @@
 #testimonials {
   background-image: url(../assets/img-testimonials-bg.jpg);
   background-attachment: fixed;
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-  color: var(--preto);
+  color: var(--preto-fixo);
   position: relative;
+  height: 864px;
+  z-index: 0;
+}
+
+#testimonials:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 94, 65, 0.75);
+  pointer-events: none;
 }
 
 #testimonials .wrap {

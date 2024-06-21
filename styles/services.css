@@ -3,6 +3,7 @@
   font-weight: 900;
   text-align: center;
   margin-bottom: 95px;
+  color: var(--preto);
 }
 
 #services .row {
@@ -19,6 +20,7 @@
   display: inline-block;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: 0.5s;
+  cursor: pointer;
 }
 
 #services .card:hover {
@@ -65,5 +67,5 @@
 }
 
 #services .btn:hover {
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }

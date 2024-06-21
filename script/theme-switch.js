@@ -1,16 +1,17 @@
-const switchToggle = document.getElementById('theme-switch');
-const currentTheme = localStorage.getItem('theme') || 'light';
-document.documentElement.setAttribute('data-theme', currentTheme);
 
-if (currentTheme === 'dark') {
-  switchToggle.checked = true;
+function themeSwitch() {
+  const switchButton = document.getElementById('theme-switch');
+  let currentTheme = localStorage.getItem('theme') || 'light';
+  document.documentElement.setAttribute('data-theme', currentTheme);
+
+  let newTheme;
+  if (currentTheme === 'dark') {
+    newTheme = 'light';
+  } else {
+    newTheme = 'dark';
+  }
+
+  document.documentElement.setAttribute('data-theme', newTheme);
+  localStorage.setItem('theme', newTheme);
 }
 
-switchToggle.addEventListener('change', () => {
-  let theme = 'light';
-  if (switchToggle.checked) {
-    theme = 'dark';
-  }
-  document.documentElement.setAttribute('data-theme', theme);
-  localStorage.setItem('theme', theme);
-});

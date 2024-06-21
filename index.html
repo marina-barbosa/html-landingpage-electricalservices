@@ -13,29 +13,29 @@
   <link rel="stylesheet" href="styles/testimonials.css">
   <link rel="stylesheet" href="styles/why.css">
   <link rel="stylesheet" href="styles/footer.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <!-- <script src="script/theme-switch.js"></script> -->
+  <script src="script/theme-switch.js"></script>
 </head>
 
 <body>
-  <header>
+  <header id="header">
     <div class="wrap">
       <div><img src="./assets/Logo.png" alt="" srcset=""></div>
       <nav>
         <ul>
-          <a href="">
+          <a href="#header">
             <li>Home</li>
           </a>
-          <a href="">
+          <a href="#about">
             <li>Sobre</li>
           </a>
-          <a href="">
+          <a href="#services">
             <li>Serviços</li>
           </a>
-          <a href="">
+          <a href="contato.html">
             <li>Contato</li>
           </a>
+          <li onclick="themeSwitch()"><i id="theme-switch" class="fa-solid fa-power-off"></i></li>
         </ul>
       </nav>
     </div>
@@ -347,16 +347,16 @@
         <div class="nav">
           <nav>
             <ul>
-              <a href="">
+              <a href="#header">
                 <li>Home</li>
               </a>
-              <a href="">
+              <a href="#about">
                 <li>Sobre</li>
               </a>
-              <a href="">
+              <a href="#services">
                 <li>Serviços</li>
               </a>
-              <a href="">
+              <a href="contato.html">
                 <li>Contato</li>
               </a>
             </ul>

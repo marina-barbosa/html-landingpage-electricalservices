@@ -1,5 +1,6 @@
 #about {
   min-height: 90vh;
+  color: var(--preto);
 }
 
 #about .wrap {

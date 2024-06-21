@@ -12,7 +12,7 @@ footer .bg-laranja {
 }
 
 footer .bg-preto {
-  background-color: var(--preto);
+  background-color: var(--preto-fixo);
   clip-path: polygon(0% 30%, 100% 0%, 100% 100%, 0% 100%);
   width: 100%;
   height: 100%;
@@ -55,7 +55,7 @@ nav ul a:nth-child(3) {
 
 footer nav ul li {
   display: inline;
-  color: var(--branco);
+  color: var(--branco-fixo);
   transition: 0.5s;
 }
 
@@ -76,7 +76,13 @@ footer .logo i {
 
 footer .icons i {
   font-size: 25px;
-  color: var(--branco);
+  color: var(--branco-fixo);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+footer .icons i:hover {
+  color: var(--laranja);
 }
 
 footer .icons i:nth-child(1),
@@ -94,7 +100,7 @@ footer hr {
 
 footer p {
   text-align: center;
-  color: var(--branco);
+  color: var(--branco-fixo);
   /* position: relative;
   top: 90%; */
 }

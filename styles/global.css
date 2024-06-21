@@ -5,22 +5,31 @@
 
 
 
+
+
+:root {
+  --preto-fixo: #222;
+  --preto: #222;
+  --text: #222;
+  --text-secundary: #666;
+  --laranja: #FF5E41;
+  --verde: #0BAD73;
+  --cinza: #ddd;
+  --branco: #fff;
+  --branco-fixo: #fff;
+  --theme-switch: #f7f315;
+}
+
 [data-theme="dark"] {
+  --preto-fixo: #111;
   --preto: #ddd;
   --text: #eee;
   --laranja: #FF8A65;
   --verde: #66BB6A;
   --cinza: #444;
   --branco: #222;
-}
-
-:root {
-  --preto: #222;
-  --text: #222;
-  --laranja: #FF5E41;
-  --verde: #0BAD73;
-  --cinza: #ddd;
-  --branco: #fff;
+  --branco-fixo: #ddd;
+  --theme-switch: #888;
 }
 
 * {
@@ -35,7 +44,7 @@
 
 html {
   scroll-behavior: smooth;
-  scrollbar-width: none;
+  /* scrollbar-width: none; */
 }
 
 body {
@@ -61,8 +70,45 @@ body {
   margin: auto 0;
   font-weight: bold;
   line-height: 50px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
 }
 
 .btn:hover {
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--cinza);
+}
+
+.btn:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(120deg,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0) 70%);
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
 }

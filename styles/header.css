@@ -1,6 +1,6 @@
 header {
-  background-color: var(--preto);
-  border-bottom: 2px solid var(--branco);
+  background-color: var(--preto-fixo);
+  border-bottom: 2px solid var(--branco-fixo);
   height: 80px;
 }
 
@@ -23,18 +23,27 @@ header nav ul {
   text-align: center;
 }
 
-nav ul a:nth-child(1),
-nav ul a:nth-child(2),
-nav ul a:nth-child(3) {
-  margin-right: 80px;
+header nav ul a:nth-child(1),
+header nav ul a:nth-child(2),
+header nav ul a:nth-child(3) {
+  margin-right: 100px;
+}
+
+nav #theme-switch {
+  margin-left: 95px;
+  color: var(--theme-switch);
+  font-size: 20px;
+  transition: 0.5s;
 }
 
 header nav ul li {
   display: inline;
-  color: var(--branco);
+  color: var(--branco-fixo);
   transition: 0.5s;
+  cursor: pointer;
 }
 
-header nav ul li:hover {
+header nav ul li:hover,
+nav #theme-switch:hover {
   color: var(--laranja);
 }

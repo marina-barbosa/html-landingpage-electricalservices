@@ -1,6 +1,6 @@
-#why {}
-
-#why .wrap {}
+#why {
+  color: var(--preto);
+}
 
 #why h1 {
   margin-top: 102px;
@@ -59,10 +59,12 @@
 
 #why .item .text:nth-child(odd) {
   text-align: right;
+  margin-right: 20px;
 }
 
 #why .item .text:nth-child(even) {
   text-align: left;
+  margin-left: 20px;
 }
 
 #why .item .text h4 {

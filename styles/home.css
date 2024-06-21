@@ -5,7 +5,7 @@
 #home .bg-img {
   /* clip-path: polygon( 0px 0px, 1799px 0px, 1800px 879px, 0px 1024px); */
   clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
-  background-color: var(--preto);
+  background-color: var(--preto-fixo);
   background-image: url('../assets/img-home.jpeg');
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -25,7 +25,7 @@
 
 #home .bg-sombra {
   clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
-  background: linear-gradient(to right, var(--preto) 50%, #22222220 100%);
+  background: linear-gradient(to right, var(--preto-fixo) 50%, #22222220 100%);
   height: calc(1024px - 160px);
   width: 100%;
   position: absolute;
@@ -35,7 +35,7 @@
   height: 90vh;
   width: 100%;
   z-index: 300;
-  color: var(--branco);
+  color: var(--branco-fixo);
   position: relative;
 }
 
@@ -65,4 +65,3 @@
 #home .btn:nth-child(2) {
   background-color: var(--laranja);
 }
-
