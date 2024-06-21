@@ -1,6 +1,6 @@
 # Energia Pura
 
-Este projeto faz parte de uma atividade prática do curso Fullstack Jr da '+PraTi' e é dedicado a fornecer uma interface amigável e profissional para uma empresa de serviços elétricos.
+Este projeto faz parte de uma atividade prática do curso Fullstack Jr da '+PraTi' e é dedicado a fornecer uma interface amigável e profissional para uma empresa de serviços elétricos. Além disso, o projeto foi desenvolvido sob a restrição de não utilizar Flexbox, Bootstrap ou outras bibliotecas de layout, sendo permitido apenas o uso das ferramentas aprendidas nas aulas até o momento.
 
 ## Índice
 
@@ -13,7 +13,7 @@ Este projeto faz parte de uma atividade prática do curso Fullstack Jr da '+PraT
 
 ## Introdução
 
-Este projeto foi criado para oferecer um site completo para uma empresa de serviços elétricos. O site inclui seções como "Sobre Nós", "Serviços", "Depoimentos" e "Contato", com um design moderno e responsivo.
+Este projeto foi criado para oferecer um site completo para uma empresa de serviços elétricos. O site inclui seções como "Sobre Nós", "Serviços", "Depoimentos" e "Contato", com um design moderno.
 
 ## Funcionalidades
 
