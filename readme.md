@@ -2,6 +2,8 @@
 
 Este projeto faz parte de uma atividade prática do curso Fullstack Jr da '+PraTi' e é dedicado a fornecer uma interface amigável e profissional para uma empresa de serviços elétricos.
 
+Deploy ->  https://marina-barbosa.github.io/html-landingpage-electricalservices/
+
 ## Screenshots
 
 <img src="assets/screencapture-index-light.png" alt="Screenshot do Site">
